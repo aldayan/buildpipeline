@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type=" text/css" href="assets/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" type=" text/css" href="assets/css/style.css" media="screen">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-3"></div>
+
+        <div class="col-md-6">
+            <form onsubmit=" event.preventDefault();onFormSubmit(); " autocomplete="off">
+                <div class="card">
+                    <div class="bg-dark text-light text-center card-header">
+                        Informacion Del Contacto
+                    </div>
+                    <div class="card-body">
+
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="form-group col-md-6 text-center">
+                                <label for="Name">Nombre Del Contacto:</label>
+                                <input type="text" class="form-control" id="Name" placeholder="Introduce Nombre">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="form-group col-md-6 text-center">
+                                <label for="kkk">Apellido Del Contacto:</label>
+                                <input type="text" class="form-control" id="kkk" placeholder="Introduce Apellido ">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="form-group col-md-6 text-center">
+                                <label for="cell">Telefono Del Contacto:</label>
+                                <input type="text" class="form-control" id="cell" placeholder="Introduce telefono de contacto">
+                            </div>
+
+
+                            <div class="row"></div>
+                            <div class=""></div>
+                            <div class="form-group col-md-12 text-center ">
+                                <label for="productType">Categoria De Contactos:</label>
+                                <select class="form-control" id="productType">
+                                      <option value="">Seleccione Una Opcion</option>
+                                      <option value="Contacto Laborar">Contacto Laborar</option>
+                                      <option value="Contacto Personal">Contacto Personal</option>
+                                      <option value="Contacto Academico">Contacto Academico</option>                                
+                                    </select>
+                            </div>
+
+
+
+                        </div>
+                        <div class="text-center">
+
+                            <input type="submit" class="btn btn-primary">
+
+                        </div>
+
+            </form>
+            </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+        <td>
+            <table class="list" id="contactolista">
+                <thead>
+
+                    <tr>
+                        <th scope="col">
+                        </th scope>Nombre del contacto </th>
+                        <th scope="col">Apellido del conatcto</th>
+                        <th scope="col">Telefono del contacto</th>
+                        <th scope="col">Caracteristica del contacto </th>
+                        <th scope="col"></th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </td>
+
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="assets/js/conecta.js"></script>
+
+</html>

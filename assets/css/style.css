@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+}
+
+.enlances {
+    text-decoration: none;
+    color: blue;
+}
+
+p.enlances {
+    text-decoration: underline;
+}
+
+.enlances.error {
+    color: red;
+}
+
+.enlances.aviso {
+    color: yellow;
+}
+
+h1,
+h2 {
+    color: teal;
+    font-weight: normal;
+    text-transform: capitalize;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table.list {
+    width: 100%;
+}
+
+body>table {
+    width: 80%;
+}
+
+tr::nth-child(event),
+table.list thead>tr {
+    background-color: #dddddd;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
